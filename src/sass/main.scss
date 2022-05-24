@@ -1,0 +1,23 @@
+// Colors
+$black: #000000;
+$white: #ffffff;
+$green-base: #68b738;
+$live-example-back: #eaeaea;
+$social-links: #666666;
+
+// Viewports
+$tablet-width: 768px;
+$desktop-width: 1440px;
+$mobile-width-only: 767px;
+
+body {
+  background: $live-example-back;
+  color: $social-links;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 14px;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}

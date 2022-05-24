@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'NeoTech';
+    src: url('NeoTech-BlackItalic.eot');
+    src: local('NeoTech Black Italic'), local('NeoTech-BlackItalic'),
+        url('NeoTech-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('NeoTech-BlackItalic.woff2') format('woff2'),
+        url('NeoTech-BlackItalic.woff') format('woff'),
+        url('NeoTech-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeoTech';
+    src: url('NeoTech-Italic.eot');
+    src: local('NeoTech Italic'), local('NeoTech-Italic'),
+        url('NeoTech-Italic.eot?#iefix') format('embedded-opentype'),
+        url('NeoTech-Italic.woff2') format('woff2'),
+        url('NeoTech-Italic.woff') format('woff'),
+        url('NeoTech-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeoTech';
+    src: url('NeoTech-BoldItalic.eot');
+    src: local('NeoTech Bold Italic'), local('NeoTech-BoldItalic'),
+        url('NeoTech-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('NeoTech-BoldItalic.woff2') format('woff2'),
+        url('NeoTech-BoldItalic.woff') format('woff'),
+        url('NeoTech-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeoTech';
+    src: url('NeoTech-Medium.eot');
+    src: local('NeoTech Medium'), local('NeoTech-Medium'),
+        url('NeoTech-Medium.eot?#iefix') format('embedded-opentype'),
+        url('NeoTech-Medium.woff2') format('woff2'),
+        url('NeoTech-Medium.woff') format('woff'),
+        url('NeoTech-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeoTech';
+    src: url('NeoTech-MediumItalic.eot');
+    src: local('NeoTech Medium Italic'), local('NeoTech-MediumItalic'),
+        url('NeoTech-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('NeoTech-MediumItalic.woff2') format('woff2'),
+        url('NeoTech-MediumItalic.woff') format('woff'),
+        url('NeoTech-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeoTech';
+    src: url('NeoTech.eot');
+    src: local('NeoTech'),
+        url('NeoTech.eot?#iefix') format('embedded-opentype'),
+        url('NeoTech.woff2') format('woff2'),
+        url('NeoTech.woff') format('woff'),
+        url('NeoTech.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeoTech';
+    src: url('NeoTech-Light.eot');
+    src: local('NeoTech Light'), local('NeoTech-Light'),
+        url('NeoTech-Light.eot?#iefix') format('embedded-opentype'),
+        url('NeoTech-Light.woff2') format('woff2'),
+        url('NeoTech-Light.woff') format('woff'),
+        url('NeoTech-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeoTech';
+    src: url('NeoTech-Black.eot');
+    src: local('NeoTech Black'), local('NeoTech-Black'),
+        url('NeoTech-Black.eot?#iefix') format('embedded-opentype'),
+        url('NeoTech-Black.woff2') format('woff2'),
+        url('NeoTech-Black.woff') format('woff'),
+        url('NeoTech-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeoTech';
+    src: url('NeoTech-LightItalic.eot');
+    src: local('NeoTech Light Italic'), local('NeoTech-LightItalic'),
+        url('NeoTech-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('NeoTech-LightItalic.woff2') format('woff2'),
+        url('NeoTech-LightItalic.woff') format('woff'),
+        url('NeoTech-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeoTech';
+    src: url('NeoTech-Bold.eot');
+    src: local('NeoTech Bold'), local('NeoTech-Bold'),
+        url('NeoTech-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NeoTech-Bold.woff2') format('woff2'),
+        url('NeoTech-Bold.woff') format('woff'),
+        url('NeoTech-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
