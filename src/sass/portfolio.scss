@@ -1,0 +1,47 @@
+.portfolio {
+  background-color: $lightgray;
+  padding: 80px 30px;
+
+  @media (min-width: $tablet-width) {
+    padding: 80px 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 80px 110px;
+  }
+
+  &__title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__item {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  &__image {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  &__link {
+    color: $black;
+  }
+
+  &__text {
+    font-size: 26px;
+    line-height: 32px;
+    display: block;
+    margin-bottom: 10px;
+  }
+}

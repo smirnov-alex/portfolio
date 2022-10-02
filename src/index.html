@@ -1,17 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Смирнов Александр - сайт-портфолио</title>
 </head>
+
 <body>
-    hello world
-    <h1>Bla bla</h1>
-    <p class="cddd">Lorem ipsum dolor sit amet.</p>
-    NeoTech Medium
-    NeoTech
+  <header class="page-header">
+    <nav class="main-nav main-nav--closed main-nav--nojs">
+      <button class="main-nav__toggle" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <ul class="main-nav__list">
+        <li class="main-nav__item"><a class="main-nav__link main-nav__link--active" href="index.html">Главная</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="catalog.html">Обо мне</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="programs.html">Навыки</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="catalog.html">Портфолио</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="programs.html">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="page-main">
+    <section class="hero">
+      <h1 class="hero__title">Смирнов <br> Александр</h1>
+      <p class="hero__text">Фронтенд-разработчик <br> 30 лет, Челябинск</p>
+      <picture>
+        <source media="(min-width: 768px)" srcset="img/avatar.jpg">
+        <img src="img/avatar-mobile.jpg" alt="Мое фото" class="hero__avatar">
+      </picture>
+    </section>
+    <section class="about">
+      <h2 class="about__title">Обо мне</h2>
+      <ul class="about__list">
+        <li class="about__item">Мне 30 лет, и я работаю сетевым инженером в крупной телекоммуникационной компании. </li>
+        <li class="about__item">Я использую программирование для автоматизации рабочих процессов. </li>
+        <li class="about__item">Я начинающий фронтенд-разработчик. В данный момент я обучаюсь на курсе React-разработчик
+          в HTML Academy</li>
+      </ul>
+    </section>
+    <section class="skills">
+      <h2 class="skills__title">Мои навыки</h2>
+      <dl class="skills__list">
+        <dt class="skills__term">HTML</dt>
+        <dd class="skills__description">Адаптивная вёрстка с применением БЭМ. Работа с адаптивными сетками (grid, flex),
+          графикой и декоративными элементами.</dd>
+        <dt class="skills__term">CSS</dt>
+        <dd class="skills__description"> Работа с графикой и декоративными элементами. Псевдоэлементы. Работа с
+          препроцессорами(PostCSS, Sass)</dd>
+        <dt class="skills__term">Python</dt>
+        <dd class="skills__description">Написание скриптов и программ для взаимодействия с сетевым оборудованием.
+          Базовое знание Django.</dd>
+        <dt class="skills__term">Другое</dt>
+        <dd class="skills__description"> Базовые знания JS. Автоматизация сборки и оптимизация верстки (Gulp, Webpack).
+          Базовые знания SQL</dd>
+      </dl>
+    </section>
+    <section class="portfolio">
+      <h2 class="portfolio__title">Портфолио</h2>
+      <ul class="portfolio__list">
+        <li class="portfolio__item">
+          <a href="https://smirnov-alex.github.io/1448725-device-32/" class="portfolio__link">
+            <span class="portfolio__text">Device</span>
+            <img src="img/Device.PNG" alt="Скриншот сайта Device" class="portfolio__image">
+          </a>
+          <span class="portfolio__description">Проект по курсу HTML и CSS. Профессиональная вёрстка сайтов от HTML
+            Academy</span>
+        </li>
+        <li class="portfolio__item"><a href="https://smirnov-alex.github.io/1448725-cat-energy-24/" class="portfolio__link">
+            <span class="portfolio__text">Cat Energy</span>
+            <img src="img/Catenergy.PNG" alt="Скриншот сайта Cat Energy" class="portfolio__image">
+          </a>
+          <span class="portfolio__description">Проект по курсу HTML и CSS. Адаптивная вёрстка и автоматизация от HTML
+            Academy</span>
+        </li>
+        <li class="portfolio__item"><a href="https://smirnov-alex.github.io/cootels/" class="portfolio__link">
+            <span class="portfolio__text">Cootels</span>
+            <img src="img/Cootels.png" alt="Скриншот сайта Cootels" class="portfolio__image">
+          </a>
+          <span class="portfolio__description">Сайт-лендинг эко-отеля в Норвегии</span>
+        </li>
+      </ul>
+    </section>
+    <section class="contacts">
+      <h2 class="contacts__title">Контакты</h2>
+      <p class="contacts__text">Хотите узнать больше или просто пообщаться? Свяжитесь со мной!</p>
+      <a class="contacts__email" href="mailto:smirnov1991alexx@gmail.com">smirnov1991alexx@gmail.com</a>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <ul class="page-footer__social-list">
+      <li class="page-footer__social-item">
+        <a class="page-footer__social-link" href="https://t.me/smirnov_alexx">
+          <span class="page-footer__social-text visually-hidden">Telegram</span>
+          <img src="img/icons/telegram_black_logo_icon_147073.svg" width="40" height="40">
+        </a>
+      </li>
+      <li class="page-footer__social-item">
+        <a class="page-footer__social-link" href="https://github.com/smirnov-alex">
+          <span class="page-footer__social-text visually-hidden">Github</span>
+          <img src="img/icons/github-logo_icon-icons.com_73546.svg" width="40" height="40">
+        </a>
+      </li>
+      <li class="page-footer__social-item">
+        <a class="page-footer__social-link" href="https://vk.com/smirnov_alexx">
+          <span class="page-footer__social-text visually-hidden">ВКонтакте</span>
+          <img src="img/icons/vk_black_logo_icon_147058.svg" width="40" height="40">
+        </a>
+
+      </li>
+    </ul>
+  </footer>
+
 </body>
+
 </html>

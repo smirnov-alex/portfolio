@@ -1,0 +1,52 @@
+.contacts {
+  margin-inline: 30px;
+  margin-bottom: 48px;
+
+  @media (min-width: $tablet-width) {
+    margin-inline: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-inline: 110px;
+  }
+
+  &__title {
+    margin-top: 80px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: 700;
+  }
+
+  &__text {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  &__email {
+    display: block;
+    margin: 0 auto;
+    color: $white;
+    background-color: $black;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 50px;
+
+    &:hover {
+      opacity: 0.6;
+    }
+
+    &:active{
+      opacity: 0.3;
+    }
+
+    @media (min-width: $tablet-width) {
+      margin: 0 auto;
+      width: 50%;
+    }
+  }
+}

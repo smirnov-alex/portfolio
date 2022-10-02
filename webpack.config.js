@@ -88,28 +88,11 @@ module.exports = {
         test: /\.html$/,
         loader: 'html-loader',
       },
-      {
-        test: /\.(?:|gif|png|jpg|jpeg|svg)$/,
-        use: [{
-          loader: 'file-loader',
-          options: {
-            name: `./img/$(filename('[ext]')}`
-          }
-        }],
-      },
+
       {
         test: /\.js$/,
         exclude: /node_modules/,
         use: ['babel-loader'],
-      },
-      {
-        test: /\.(?:|woff2)$/,
-        use: [{
-          loader: 'file-loader',
-          options: {
-            name: `./fonts/$(filename('[ext]')}`
-          }
-        }],
       },
     ]
   },

@@ -1,0 +1,30 @@
+.about {
+  background-color: $lightgray;
+  padding: 80px 30px;
+
+  @media (min-width: $tablet-width) {
+    padding: 80px 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 80px 110px;
+  }
+
+  &__title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__item {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
